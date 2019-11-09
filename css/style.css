@@ -120,20 +120,29 @@
    color: #cdcdcd;
 }
 
-#menuCard,#menuItem {
-   background: rgba(0,0,0,0.4);
+#menuCard,
+#menuItem {
+   background: rgba(0, 0, 0, 0.4);
    font-family: 'Sarabun', sans-serif;
- }
+}
 
- #dropdownMenuButton {
+#dropdownMenuButton {
    font-family: 'Sarabun', sans-serif;
    float: left;
    margin: 1%;
    border-radius: 0px;
- }
- #dropdownmenuitem {
+}
+
+#dropdownmenuitem {
    color: #cdcdcd;
- }
- #dropdownmenuitem:hover {
+}
+
+#dropdownmenuitem:hover {
    color: #000;
- }
+}
+
+#numberInput {
+   width: 70px;
+   float: left;
+
+}
