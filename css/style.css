@@ -146,3 +146,16 @@
    float: left;
 
 }
+
+#size-selector {
+   width: 120px;
+   float: right;
+ }
+ #crust-selector {
+   border-radius: 0px;
+   margin: 2%;
+ }
+ #topping-selector {
+   border-radius: 0px;
+   margin: 2%;
+ }
