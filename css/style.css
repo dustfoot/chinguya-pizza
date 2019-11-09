@@ -114,3 +114,8 @@
    color: #ffda00;
    font-size: 40px;
 }
+
+.text-center a {
+   font-family: 'Shrikhand', cursive;
+   color: #cdcdcd;
+}
