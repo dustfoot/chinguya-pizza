@@ -119,3 +119,8 @@
    font-family: 'Shrikhand', cursive;
    color: #cdcdcd;
 }
+
+#menuCard,#menuItem {
+   background: rgba(0,0,0,0.4);
+   font-family: 'Sarabun', sans-serif;
+ }
