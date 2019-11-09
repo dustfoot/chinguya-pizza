@@ -150,12 +150,18 @@
 #size-selector {
    width: 120px;
    float: right;
- }
- #crust-selector {
+}
+
+#crust-selector {
    border-radius: 0px;
    margin: 2%;
- }
- #topping-selector {
+}
+
+#topping-selector {
    border-radius: 0px;
    margin: 2%;
- }
+}
+
+.dropdown-menu a {
+   font-family: 'Sarabun', sans-serif;
+}
