@@ -291,3 +291,16 @@
    width: 50px;
    word-spacing: 30px;
 }
+
+.branches {
+   width: 30%;
+   padding-top: 2%;
+   color: #000;
+   font-size: 9px;
+   text-align: center;
+   font-weight: bolder;
+}
+
+.branches h5 {
+   font-size: 10px;
+}
