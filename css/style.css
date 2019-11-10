@@ -280,3 +280,14 @@
 .footer {
    background: url('../images/footerimg1.png');
 }
+
+.links {
+   padding-top: 3%;
+   text-align: center;
+   word-spacing: 20px;
+}
+
+.links img {
+   width: 50px;
+   word-spacing: 30px;
+}
