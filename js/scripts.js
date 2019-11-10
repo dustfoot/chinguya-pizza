@@ -75,4 +75,12 @@ class Pizza {
          return 0;
       }
    }
-   
+
+   totalPriceNoDelivery() {
+      let priceAtPointA = this.typePrice();
+      let priceAtPointB = this.priceBySize();
+      let priceAtPointC = this.toppingsPrice();
+      let priceAtPointD = this.crustPrice();
+
+      return priceAtPointA + priceAtPointB + priceAtPointC + priceAtPointD;
+   }
