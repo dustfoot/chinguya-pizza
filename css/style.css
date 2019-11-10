@@ -276,3 +276,7 @@
    border: solid #4eb583 1px;
    color: #4a4741;
 }
+
+.footer {
+   background: url('../images/footerimg1.png');
+}
