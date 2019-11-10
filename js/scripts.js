@@ -67,3 +67,12 @@ class Pizza {
          return 0;
       }
    }
+
+   deliveryPrice() {
+      if (this.delivery == true) {
+         return 200;
+      } else {
+         return 0;
+      }
+   }
+   
