@@ -7,4 +7,11 @@ class Pizza {
       this.quantity = quantity;
       this.delivery = delivery;
    }
-   
+   typePrice() {
+      if (this.type == "CHICKEN SUPREME") {
+         this.price = 0;
+         return this.price;
+      } else {
+         return this.price;
+      }
+   }
