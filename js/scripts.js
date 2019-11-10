@@ -37,3 +37,33 @@ class Pizza {
          return 0;
       }
    }
+
+   toppingsPrice() {
+      if (this.toppings == "Extra Chicken") {
+         return 200;
+      } else if (this.toppings == "Extra Beef") {
+         return 150;
+      } else if (this.toppings == "Extra Ham") {
+         return 150;
+      } else if (this.toppings == "Extra Cheese Mozarella") {
+         return 150;
+      } else if (this.toppings == "Extra Bacon") {
+         return 150;
+      } else if (this.toppings == "Extra Sausages") {
+         return 150;
+      } else if (this.toppings == "Extra Spinach") {
+         return 150;
+      } else if (this.toppings == "Extra Onion") {
+         return 150;
+      } else if (this.toppings == "Extra Mushrooms") {
+         return 150;
+      } else if (this.toppings == "Extra Tomatoes") {
+         return 150;
+      } else if (this.toppings == "Extra Jalapenos") {
+         return 150;
+      } else if (this.toppings == "Extra Olives") {
+         return 150;
+      } else {
+         return 0;
+      }
+   }
