@@ -7,6 +7,7 @@ class Pizza {
       this.quantity = quantity;
       this.delivery = delivery;
    }
+
    typePrice() {
       if (this.type == "CHICKEN SUPREME") {
          this.price = 0;
@@ -15,6 +16,7 @@ class Pizza {
          return this.price;
       }
    }
+
    priceBySize() {
       if (this.size == "Large") {
          return 1500;
@@ -24,6 +26,7 @@ class Pizza {
          return 500;
       }
    }
+
    crustPrice() {
       if (this.crust == "Tripple Cheese Crust") {
          return 400;
@@ -98,19 +101,7 @@ class Pizza {
    }
 
 }
-pricePerQuantity() {
-   let grossPrice = this.totalPriceNoDelivery();
-   return grossPrice * this.quantity;
-}
 
-totalPlusDelivery() {
-   let withoutDelivery = this.pricePerQuantity();
-   let deliveryFee = this.deliveryPrice();
-
-   return withoutDelivery + deliveryFee;
-}
-
-}
 
 $(document).ready(() => {
    $("#pizza-one-form").submit((event) => {
