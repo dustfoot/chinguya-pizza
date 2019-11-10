@@ -15,3 +15,64 @@ class Pizza {
          return this.price;
       }
    }
+   priceBySize(){
+      if (this.size == "Large"){
+        return 1500;
+      } else if (this.size == "Medium"){
+        return 1000;
+      } else {
+        return 500;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
