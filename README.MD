@@ -52,4 +52,4 @@ Copyright (c) 2019 KARSHE ABDI.
 
 ## LIVELINK.
 
-[LINK]()
+[LINK](https://dustfoot.github.io/chinguya-pizza/)
