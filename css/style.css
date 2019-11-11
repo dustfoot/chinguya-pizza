@@ -1,5 +1,5 @@
 .navbar {
-   background: rgba(0, 0, 0, 0.4) !important;
+   background-color: #DE3831 !important;
 }
 
 .navbar .navbar-brand {
@@ -327,3 +327,11 @@
 #menuItem {
    float: right;
 }
+
+/* .container-fluid {
+   width: 100%;
+   padding-right: 10px;
+   padding-left: 10px;
+   margin-right: auto;
+   margin-left: auto;
+} */
