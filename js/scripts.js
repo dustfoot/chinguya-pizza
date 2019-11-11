@@ -6,12 +6,11 @@ class Pizza {
       this.toppings = toppings;
       this.quantity = quantity;
       this.delivery = delivery;
-      this.basePrice = 600;
    }
 
    typePrice() {
       if (this.type == "CHICKEN SUPREME") {
-         this.price = 700;
+         this.price = 0;
          return this.price;
       } else {
          return this.price;
@@ -45,6 +44,28 @@ class Pizza {
    toppingsPrice() {
       if (this.toppings == "Extra Chicken") {
          return 200;
+      } else if (this.toppings == "Extra Beef") {
+         return 150;
+      } else if (this.toppings == "Extra Ham") {
+         return 150;
+      } else if (this.toppings == "Extra Cheese Mozarella") {
+         return 150;
+      } else if (this.toppings == "Extra Bacon") {
+         return 150;
+      } else if (this.toppings == "Extra Sausages") {
+         return 150;
+      } else if (this.toppings == "Extra Spinach") {
+         return 150;
+      } else if (this.toppings == "Extra Onion") {
+         return 150;
+      } else if (this.toppings == "Extra Mushrooms") {
+         return 150;
+      } else if (this.toppings == "Extra Tomatoes") {
+         return 150;
+      } else if (this.toppings == "Extra Jalapenos") {
+         return 150;
+      } else if (this.toppings == "Extra Olives") {
+         return 150;
       } else {
          return 0;
       }
@@ -85,14 +106,19 @@ class Pizza {
 $(document).ready(() => {
    $("#pizza-one-form").submit((event) => {
       event.preventDefault();
+      var decision = confirm("Have Pizza Delivered?");
       let pizzaName = $("#pizza-one-label").text();
       let pizzaSize = $("#size-selector").val();
       let toppingType = $("#topping-selector").val();
       let crustType = $("#crust-selector").val();
       let pizzaQuantity = Number($("#pizza-quantity").val());
+
+
+
       // let delivery = $("#to-be-delivered").is(":checked");
       // let pickUp = $("#to-be-picked").is(":checked");
-      let chickenSupreme = new Pizza(pizzaName, pizzaSize, crustType, toppingType, pizzaQuantity, false);
+      let chickenSupreme = new Pizza(pizzaName, pizzaSize, crustType, toppingType, pizzaQuantity, decision);
+      console.log(chickenSupreme);
       $("#size-price").text(chickenSupreme.size + " " + chickenSupreme.type + ": " + "Ksh. " + chickenSupreme.priceBySize());
       $("#crust-price").text(chickenSupreme.crust + ": " + "Ksh. " + chickenSupreme.crustPrice());
       $("#toppings-price").text(chickenSupreme.toppings + " Toppings" + ": " + "Ksh. " + chickenSupreme.toppingsPrice());
@@ -100,6 +126,8 @@ $(document).ready(() => {
       $("#total").text("Total: " + "Ksh. " + chickenSupreme.totalPlusDelivery());
    });
 });
+
+
 
 $(document).ready(function () {
    $("#checkOut").onclick(function (event) {
