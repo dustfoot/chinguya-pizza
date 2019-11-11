@@ -24,11 +24,11 @@ Here is a run through of how to set up the application:
 
 \*Clone this repository using :
 
-    git clone
+    git clone: https://github.com/dustfoot/chinguya-pizza.git
 
 \*Navigate into the cloned project using the terminal.
 
-    cd PIZZA.
+    cd PIZZA. https://github.com/dustfoot/chinguya-pizza.git
 
 \*Now,open the project with your favorite text editor.
 
